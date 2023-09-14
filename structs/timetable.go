@@ -1,7 +1,7 @@
 package structs
 
 type Timetable struct {
-	Holder string `reindex:"holder,,pk" json:"-"`
+	Holder string `reindex:"holder,,pk"`
 	Days   []Day  `reindex:"days" json:"days"`
 }
 
