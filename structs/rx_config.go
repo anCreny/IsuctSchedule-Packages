@@ -14,3 +14,5 @@ type Namespaces struct {
 	Groups   string
 	Names    string
 }
+
+type TestVersioning int
